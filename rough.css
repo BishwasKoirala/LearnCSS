@@ -1,0 +1,53 @@
+
+    /* selectors in css */
+
+p{
+  color:darkblue
+}
+/* changes font colour of all the   p    */
+
+
+#intro{
+    font-size: large;color: blueviolet;
+  }
+
+/* affects where id is    id="intro"
+    but i dont it is a good method to do css with messing id */
+
+
+h1 ,h2{
+    color: chocolate;
+    }
+    /* this means h1 and h2 elements will be edited */
+
+    
+p span{
+    text-transform:capitalize;background-color: brown;color: azure;
+}
+  /* edits <span> element inside <P> 
+    but it is better to use classing ( class="" method)*/
+
+.highlight_red{
+    background-color: red;
+}
+/* a class which can be reused by class="highlight_red" */
+
+
+*{
+    font-family: monospace;
+  }
+  /*  selects everything on the page and customizes */
+  
+
+
+
+/* the last code overwrites first 
+    like python it execute from top to bottom */
+    p{
+        color:white
+    }
+    p{
+        color:black
+    }
+
+
