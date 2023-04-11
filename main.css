@@ -3,7 +3,7 @@ html{
 }   
 
 body{
-    background-color: black;
+    background-color: #3a3a3a;
     color: rgb(220, 245, 228);
     
 }
@@ -44,3 +44,43 @@ a{
   background-color: red;
 }
 
+/* also can use hex codes */
+
+
+#intro{
+  background-color: #342241;
+}
+
+#header{
+  background:#475a83 ;
+}
+
+.voiletgrey{
+  background:#43696e
+}
+
+
+/*  */
+
+h1{
+  border: 3px dashed red;
+  width: fit-content;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+
+main,header{
+  width: 100vw;
+  font-size: 1.5rem;
+}

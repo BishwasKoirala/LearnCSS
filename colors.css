@@ -1,0 +1,19 @@
+body{
+    background:white  ;
+    color: white;
+    color: rgb(198, 206, 212);
+    /* can add using rgb */
+}
+
+p{
+    color:rgba(99999, 200,0,0.3)
+  }
+  /* alpha in rgba means the transparancy of the font */
+
+
+  
+  /* also can use hex codes */
+#intro{
+    background-color: #342241;
+    color: white;
+  }

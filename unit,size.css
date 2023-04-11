@@ -1,0 +1,46 @@
+
+p{
+    font-size: 16px;
+}
+/* add absolute font size if you dont want the browser to change font size */
+
+p{
+    border: 3px dashed red;
+    width: 60%;
+    font-size: 2rem;
+    /* adding numbers in rem , emolyfys? the deafult(root) font */
+    /* there is  em  but it it will バグる */
+    padding: 0.5em;
+    /* padding means adding blanks */
+    
+}
+
+p{
+    font-size: 2rem;
+    /* adding numbers in rem , emolyfys? the deafult(root) font */
+    /* there is  em  but it it will バグる */
+    width: 50 ch;
+    /* wraps line which contians more than 60 lines */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+
+body{
+    width: 100vw;
+}
+/* the viewportwidth vw is used to make websites relative to divice display which will be more efficient in responsive web design rather than determining pixels */
+body{
+    width: 100%;
+}
+/* dont know the detailed difference but it might be better to do body % and other elements vw */
+
+
+body{
+    min-height: 100vh;
+}
+/* used to set minimum viewport height might be necessary when your body is small and you want to give at least space to it */
