@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* resets the css things that are applied */
+
+h1{
+    border: 3px dashed black;
+    width: 300px;
+    font-size: 2.5rem;
+    padding: rem;
+  }
+
+
+  /* Box Model */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  /* or just chsange make a class */
+  
+  .container{
+    border: 3px dashed black;
+    font-size: 1.5rem;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    /* margin: 1em 0.5em 1em 0.5rem; */
+  
+    
+    /* same applies in padding as well */
+    padding: 1em 1.3em 1em 1.3em;
+    background-color: #313131;
+  }
+  
+
+
+
+  
+  /* to create a circle, add a dic and name class circle */
+
+  /* in html */
+  /*                     <div class="circle">created a circle</div>
+ */
+
+ /* is css */
+.circle{
+    margin: 3rem auto;
+    color: blue;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+  }
+  

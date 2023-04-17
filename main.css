@@ -40,47 +40,85 @@ a{
 /*  */
 
 
-.highlight_red{
+/* .highlight_red{
   background-color: red;
-}
+} */
 
 /* also can use hex codes */
 
 
 #intro{
-  background-color: #342241;
+  background-color: #242323;
 }
 
-#header{
+/* #header{
   background:#475a83 ;
-}
+} */
 
 .voiletgrey{
-  background:#43696e
+  background:#202020
 }
 
 
 /*  */
 
-h1{
+/* h1{
   border: 3px dashed red;
   width: fit-content;
-}
+} */
+
+
+/* body{
+  width: 100%;
+  min-height: 100vh;
+} */
+
+
+
+/* main,header{
+  width: 100vw;
+  font-size: 1.5rem;
+} */
+
+
+/* Box Model */
+
 
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box ;
-}
-
-body{
-  width: 100%;
-  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 
 
-main,header{
-  width: 100vw;
+
+/* or just chsange make a class */
+
+.container{
+  border: 3px dashed;
+  border-top: 5px solid;
+  border-left: 10px dotted;
+  border-bottom: 5px solid;
   font-size: 1.5rem;
+  margin-top: 1em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  /* margin: 1em 0.5em 1em 0.5rem; */
+
+  /* outline wraps the border and is not cosidered as box model */
+  outline: 2px red;
+
+  outline-offset: 5px;
+  /* make outline 5px off the border */
+  /* -3px徒かにしたらなかに引っ込む */
+
+  
+  /* same applies in padding as well */
+  padding: 1em 1.3em 1em 1.3em;
+  background-color: #313131;
 }
+
+
+
