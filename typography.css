@@ -1,0 +1,32 @@
+/* typography means arranging and presenting the text */
+
+
+body{
+    padding: 10%;
+    font-size: 2rem
+  }
+  
+  input, button {
+    font: inherit;
+  }
+  
+  p{
+    text-decoration: line-through;
+    /* cross the texr */
+    text-decoration: none;
+    /* reset the text decoration from the font */
+  
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    /* make fist letter capital */
+  
+    text-align: left;
+    /* 文字を左に寄せる */
+    text-align: justify;
+    /* make text letters all equal spaces */
+  
+    text-indent: 2em;
+    /* add gap in first of the paragraph */
+  }
+  

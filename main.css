@@ -122,3 +122,21 @@ a{
 
 
 
+
+/* creting a circle */
+.circle{
+  margin: 3rem auto;
+  color: blue;
+  background-color: gold;
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 100px;
+  outline: 2px solid red;
+  outline-offset: 0.25rem;
+}
+
+
+
+      /* typography */
+
